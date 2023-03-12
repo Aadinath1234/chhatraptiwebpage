@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header{
+    width: 100%; height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url('img/backgroundshivaji2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+nav{
+    width: 100%; 
+    height:10vh;
+    background: rgb(0,0,0,0.2);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    text-transform: uppercase;
+}
+
+nav .logo{
+    width: 25%;
+    text-align: center;
+    
+
+}
+
+nav .menu{
+    width: 54%;
+    
+    display:flex;
+    justify-content:space-between;
+
+}
+
+nav .menu a {
+    width:25%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav .menu a:first-child{
+    color: #00b894;
+}
+
+
+main{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color : white;
+
+
+}
+
+section{
+
+
+}
+
+
+section h3{
+    font-size: 40px;
+    font-weight: ;
+    letter-spacing: 3px;
+     text-shadow: 1px 1px 2px black;
+
+
+}
+
+
+section h1{
+   margin: 100px 0 74px 0;
+   font-size: 29px;
+   font-weight: 900;
+   text-shadow: 8px 3px 15px #d52929;
+   text-transform: uppercase;
+
+
+
+}
+
+
+section p{
+
+    font-size: 25px;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 3px 1px 3px #e53434
+}
+
+section a{
+    padding: 12px 21px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+
+section .btnone{
+    background: #fff;
+    color: #000;
+
+
+}
+
+.btnone:hover{
+
+    background:black;
+    color: white;
+
+}
+
+section .btntwo{
+    background: #00b894;
+    color: white;
+}
+
+.btntwo:hover{
+     background: orange;
+     color:black;
+}
+.change_content:after{
+    content: '';
+    animation: changetext 10s infinite linear;
+    color: #0fd7cf;
+}
+
+@keyframes changetext{
+    0%{ content: "CHHATRAPATI SHIVAJI MAHARAJ"}
+    20%{content: "CHIMAJI APPA"}
+    35%{content: "BAAJIPRABHU DESHPANDE"}
+    60%{content: "MAHADAJI SHINDE"}
+    80%{content: "DHANAJI JADHAV"}
+    100%{content: "TANHAJI MALUSARE"}
+}
+
+
